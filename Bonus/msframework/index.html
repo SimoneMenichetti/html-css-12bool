@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bonus</title>
+    <link rel="stylesheet" href="./12bool.css">
+    <link rel="stylesheet" href="./style.css">
+   </head>
+<body>
+
+    <div class="container windbottom">
+        <h2>Nested</h2>
+
+         <!-- 6/12 x 12 col-6 -->
+         <div class="row">
+            <!-- inserimento box annidato nelle col contenenti suddivisioni ulteriori interne -->
+                <div class="col-6">
+                    <!-- diamo row per estendere regole flex -->
+                    <div class="square row">
+                        <div class="col-3">
+                            <div class="box">col nest 3</div>
+                        </div>
+                        <div class="col-6">
+                            <div class="box">col nest 6</div>
+                        </div>
+                        <div class="col-3">
+                            <div class="box">col nest 3</div>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="col-6">
+                <!-- diamo row per estendere regole flex -->
+                    <div class="square row">
+                        <div class="col-6">
+                            <div class="box">col nest 6</div>
+                        </div>
+                        <div class="col-6">
+                            <div class="box">col nest 6</div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+
+    
+</body>
+</html>
