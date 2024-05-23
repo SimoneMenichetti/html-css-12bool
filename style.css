@@ -12,7 +12,16 @@
 .square .box {
     background-color: #2ff72f;
     color: white;
-    border: 1px solid white;
+    border: 1px solid  #2F81F7;
     text-align: center; 
+}
+
+
+.windbottom{
+    margin-bottom: 20px;
+}
+
+.empti{
+    padding: 15px;
 }
 
