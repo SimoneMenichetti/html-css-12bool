@@ -8,3 +8,11 @@
     padding: 10px;
 }
 
+
+.square .box {
+    background-color: #2ff72f;
+    color: white;
+    border: 1px solid white;
+    text-align: center; 
+}
+

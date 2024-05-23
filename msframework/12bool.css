@@ -88,8 +88,7 @@
   }
   
   .col-12{
-    flex-basis: calc(100% / 12 * 12);
-    max-width: calc(100% / 12 * 12);
+   width: 100%;
   }
   
   /* regole generali offset colonne */
