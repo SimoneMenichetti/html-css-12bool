@@ -20,10 +20,51 @@
     /* regola colonne */
     [class*="col-"] {
         flex: 0 0 auto;
+        /* DEBUG */
+        
+}
+
+/* flex general */
+
+.start{
+
+  justify-content: flex-start;
+}
+
+.center{
+  
+  justify-content: center;
+}
+
+.end{
+  
+  justify-content: flex-end;
+}
+
+.between{
+  
+  justify-content: space-between;
+}
+
+.around{
+  
+  justify-content: space-around;
+}
+
+
+
+/* regola grandezza square */
+.boldsquare{
+  min-height: 100px;
+}
+
+/* regola midle row */
+
+.midle{
+vertical-align: middle;
 }
 
 /* regola colonna flessibile  */
-
 .col{
     flex-grow: 1;
     flex-basis: 0;
@@ -60,6 +101,7 @@
   .col-6{
     flex-basis: calc(100% / 12 * 6);
     max-width: calc(100% / 12 * 6);
+   
   }
   
   .col-7{
