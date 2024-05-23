@@ -51,17 +51,21 @@
   justify-content: space-around;
 }
 
-
-
-/* regola grandezza square */
-.boldsquare{
-  min-height: 100px;
+/* regola Top row */
+.top {
+  
+  justify-content: flex-start; 
 }
 
-/* regola midle row */
+/* regola middle row */
 
-.midle{
-vertical-align: middle;
+.middle {
+  justify-content: center; 
+}
+/* bottom row */
+.bottom {
+  
+  justify-content: flex-end; 
 }
 
 /* regola colonna flessibile  */
