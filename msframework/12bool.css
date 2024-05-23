@@ -17,7 +17,18 @@
     flex-direction: row;
     flex-wrap: wrap;
   }
+    /* regola colonne */
+    [class*="col-"] {
+        flex: 0 0 auto;
+}
 
+/* regola colonna flessibile  */
+
+.col{
+    flex-grow: 1;
+    flex-basis: 0;
+    max-width: 100%;
+}
 
   /* regole generali suddivisione colonne */
 
